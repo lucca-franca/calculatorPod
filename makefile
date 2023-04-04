@@ -6,4 +6,4 @@ publish/ios:
 	@git add Calculator.xcframework
 	@git commit -m "Version $(VERSION)"
 	@git tag $(VERSION)
-	@git push $(VERSION)
+	@git push origin $(VERSION)
